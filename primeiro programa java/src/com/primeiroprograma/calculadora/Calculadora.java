@@ -14,10 +14,10 @@ public class Calculadora {
 		System.out.println("Digite o 2º valor:");
 		b = entrada.nextInt();
 		
-		int soma = soma(a,b);
-		int subtracao = subtracao(a,b);
-		int multiplicacao = multiplicacao(a,b); 
-		int divisao = divisao(a,b);
+		double soma = soma(a,b);
+		double subtracao = subtracao(a,b);
+		double multiplicacao = multiplicacao(a,b); 
+		double divisao = divisao(a,b);
 		
 		System.out.println("Soma: " + soma);
 		System.out.println("Subtração: " + subtracao);
@@ -31,10 +31,10 @@ public class Calculadora {
 	public static int subtracao(int a, int b) {
 		return a - b;
 	}
-	public static int divisao(int a, int b) {
+	public static double divisao(int a, int b) {
 		return a / b;
 	}
-	public static int multiplicacao(int a, int b) {
+	public static double multiplicacao(int a, int b) {
 		return a *  b;
 	}
 
